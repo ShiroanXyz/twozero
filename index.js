@@ -12,14 +12,10 @@ client.on('message', msg => {
 });
 
 client.on('guildMemberAdd', (member) => {
-    member.sendMessage({
+    member.sendMessage('**Hello! ♡**\nWould you be kind enough to join my Discord server?\nHere is the link: **https://discord.gg/6Qvc9UF**', {
       embed: {
-        author: {
-          name: 'Hello! ♡'
-        },
-        description: 'I have create a new discord server, Do you want join us?\n**Here is the link: __https://discord.gg/6Qvc9UF__**',
-        color: 0xff3366,
         image: {
+          color: 0xff3366,
           url: 'https://78.media.tumblr.com/51fa570b76b220bed3eb4a6b26c09611/tumblr_p38eq9jjDP1s2htvko1_500.gif'
         }
       }
