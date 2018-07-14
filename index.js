@@ -12,7 +12,7 @@ client.on('message', msg => {
 });
 
 client.on('guildMemberAdd', (member) => {
-    member.sendMessage('**Hello! ♡**\nWould you be kind enough to join my server?\nHere is the link: **https://discord.gg/KUrDzTw**', {
+    member.sendMessage('**Hello! ♡**\nWould you be kind enough to join my server?\nHere is the link: **https://discord.gg/H7PR2Yq**', {
       embed: {
         color: 0xDDA0DD,
         image: {
