@@ -16,7 +16,7 @@ client.on('guildMemberAdd', (member) => {
       embed: {
         color: 0xDDA0DD,
         image: {
-          url: 'https://78.media.tumblr.com/51fa570b76b220bed3eb4a6b26c09611/tumblr_p38eq9jjDP1s2htvko1_500.gif'
+          url: 'https://78.media.tumblr.com/33b36e4d8dccc88921ae19109b22c8d9/tumblr_p3p4iyTQwZ1qg67clo1_500.gif'
         }
       }
     });
