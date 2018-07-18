@@ -14,9 +14,9 @@ client.on('message', msg => {
 client.on('guildMemberAdd', (member) => {
     member.sendMessage('**Hello! ♡**\nWould you be kind enough to join my server?\nHere is the link: **https://discord.gg/H7PR2Yq**', {
       embed: {
-        color: 0xDDA0DD,
+        color: 0xd10000,
         image: {
-          url: 'https://78.media.tumblr.com/33b36e4d8dccc88921ae19109b22c8d9/tumblr_p3p4iyTQwZ1qg67clo1_500.gif'
+          url: 'https://pa1.narvii.com/6715/4c6e81d7a5f2f5f642f40cf23a3cfe19881cb76e_hq.gif'
         }
       }
     });
